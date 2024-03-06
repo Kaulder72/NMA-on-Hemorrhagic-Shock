@@ -1,0 +1,18 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df  p-value
+Total           23.22  3 < 0.0001
+Within designs  23.22  3 < 0.0001
+Between designs  0.00  0       --
+
+Design-specific decomposition of within-designs Q statistic
+
+ Design     Q df  p-value
+ HSD:RL 22.31  2 < 0.0001
+ NS:HES  0.91  1   0.3406
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 0.00  0      --     2.4578      6.0408

@@ -1,0 +1,32 @@
+Number of studies: k = 12
+Number of pairwise comparisons: m = 14
+
+Results for pairwise comparisons (common effect model):
+                    m      MD             95%-CI     Q   I^2
+Albumin:HES         1  0.0000 [-0.0037;  0.0037]  0.00    --
+Albumin:NS          1  0.0600 [ 0.0567;  0.0633]  0.00    --
+BRS:NS              1  0.0300 [-0.0062;  0.0662]  0.00    --
+BRS:RL              1  0.8000 [ 0.7479;  0.8521]  0.00    --
+HES:NS              3  0.0582 [ 0.0549;  0.0615] 44.01 95.5%
+HH:HS               1 -0.0400 [-0.0585; -0.0215]  0.00    --
+HS:RL               1 -0.0900 [-0.1324; -0.0476]  0.00    --
+HSD:plasma-lyte A   1 -0.0400 [-0.0796; -0.0004]  0.00    --
+HSD:RL              3  0.0272 [ 0.0049;  0.0495] 17.07 88.3%
+Plasma:NS           1  0.0400 [ 0.0024;  0.0776]  0.00    --
+
+Results for pairwise comparisons (random effects model):
+                    m      MD             95%-CI  tau^2    tau
+Albumin:HES         1  0.0000 [-0.0037;  0.0037]     --     --
+Albumin:NS          1  0.0600 [ 0.0567;  0.0633]     --     --
+BRS:NS              1  0.0300 [-0.0062;  0.0662]     --     --
+BRS:RL              1  0.8000 [ 0.7479;  0.8521]     --     --
+HES:NS              3  0.0308 [-0.0283;  0.0898] 0.0022 0.0472
+HH:HS               1 -0.0400 [-0.0585; -0.0215]     --     --
+HS:RL               1 -0.0900 [-0.1324; -0.0476]     --     --
+HSD:plasma-lyte A   1 -0.0400 [-0.0796; -0.0004]     --     --
+HSD:RL              3  0.0543 [-0.0388;  0.1473] 0.0050 0.0710
+Plasma:NS           1  0.0400 [ 0.0024;  0.0776]     --     --
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2

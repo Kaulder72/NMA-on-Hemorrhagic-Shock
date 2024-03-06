@@ -1,0 +1,37 @@
+Results on the Log Odds Ratio scale
+
+Iterations = 5001:25000
+Thinning interval = 1 
+Number of chains = 4 
+Sample size per chain = 20000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                                  Mean      SD  Naive SE
+d.Isotonic_Crystalloid.Combination            -0.13480 0.13684 0.0004838
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid -0.06892 0.22339 0.0007898
+d.Isotonic_Crystalloid.Natural_Colloid        -0.35656 0.17240 0.0006095
+d.Isotonic_Crystalloid.Synthetic_Colloid      -0.22369 0.20989 0.0007421
+sd.d                                           0.41217 0.08783 0.0003105
+                                              Time-series SE
+d.Isotonic_Crystalloid.Combination                  0.001120
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid       0.004037
+d.Isotonic_Crystalloid.Natural_Colloid              0.001474
+d.Isotonic_Crystalloid.Synthetic_Colloid            0.002375
+sd.d                                                0.001225
+
+2. Quantiles for each variable:
+
+                                                 2.5%     25%      50%      75%
+d.Isotonic_Crystalloid.Combination            -0.4079 -0.2241 -0.13393 -0.04379
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid -0.5094 -0.2154 -0.06875  0.07912
+d.Isotonic_Crystalloid.Natural_Colloid        -0.6812 -0.4724 -0.36256 -0.24638
+d.Isotonic_Crystalloid.Synthetic_Colloid      -0.6374 -0.3635 -0.22341 -0.08353
+sd.d                                           0.2721  0.3497  0.40112  0.46307
+                                                  97.5%
+d.Isotonic_Crystalloid.Combination             0.131536
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid  0.368806
+d.Isotonic_Crystalloid.Natural_Colloid        -0.002018
+d.Isotonic_Crystalloid.Synthetic_Colloid       0.186021
+sd.d                                           0.614917

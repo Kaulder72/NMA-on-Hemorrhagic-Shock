@@ -1,0 +1,28 @@
+Number of studies: k = 9
+Number of pairwise comparisons: m = 11
+
+Results for pairwise comparisons (common effect model):
+                    m      MD            95%-CI     Q   I^2
+BRS:NS              1  1.1900 [ 0.2461; 2.1339]  0.00    --
+HES:NS              2  0.1435 [-1.2239; 1.5109]  0.91  0.0%
+HS:NS               1  0.2000 [-2.2792; 2.6792]  0.00    --
+HS:RL               1  0.2000 [-1.9479; 2.3479]  0.00    --
+HSD:plasma-lyte A   1 -1.0000 [-4.0930; 2.0930]  0.00    --
+HSD:RL              3  0.2152 [-0.5292; 0.9596] 22.31 91.0%
+Plasma:NS           1  4.0000 [ 1.9672; 6.0328]  0.00    --
+RL:NS               1  0.0000 [-2.5169; 2.5169]  0.00    --
+
+Results for pairwise comparisons (random effects model):
+                    m      MD            95%-CI  tau^2    tau
+BRS:NS              1  1.1900 [ 0.2461; 2.1339]     --     --
+HES:NS              2  0.1435 [-1.2239; 1.5109]      0      0
+HS:NS               1  0.2000 [-2.2792; 2.6792]     --     --
+HS:RL               1  0.2000 [-1.9479; 2.3479]     --     --
+HSD:plasma-lyte A   1 -1.0000 [-4.0930; 2.0930]     --     --
+HSD:RL              3 -0.2890 [-3.5910; 3.0130] 7.3572 2.7124
+Plasma:NS           1  4.0000 [ 1.9672; 6.0328]     --     --
+RL:NS               1  0.0000 [-2.5169; 2.5169]     --     --
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2

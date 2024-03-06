@@ -1,0 +1,27 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df  p-value
+Total           47.53  8 < 0.0001
+Within designs  45.20  7 < 0.0001
+Between designs  2.33  1   0.1270
+
+Design-specific decomposition of within-designs Q statistic
+
+                                 Design     Q df  p-value
+       Isotonic Crystalloid:Combination 34.54  3 < 0.0001
+ Isotonic Crystalloid:Synthetic Colloid 10.35  3   0.0158
+   Isotonic Crystalloid:Natural Colloid  0.32  1   0.5738
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.1270)
+
+                        Detached design    Q df p-value
+   Isotonic Crystalloid:Natural Colloid 0.00  0      --
+ Isotonic Crystalloid:Synthetic Colloid 0.00  0      --
+      Natural Colloid:Synthetic Colloid 0.00  0      --
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                   Q df p-value tau.within tau2.within
+Between designs 1.76  1  0.1847     1.3461      1.8120

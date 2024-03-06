@@ -1,0 +1,23 @@
+Results on the Mean Difference scale
+
+Iterations = 5001:25000
+Thinning interval = 1 
+Number of chains = 4 
+Sample size per chain = 20000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                            Mean     SD Naive SE Time-series SE
+d.Isotonic_Crystalloid.Combination       -0.5689 1.6967 0.005999       0.006880
+d.Isotonic_Crystalloid.Natural_Colloid    1.7153 1.0842 0.003833       0.005718
+d.Isotonic_Crystalloid.Synthetic_Colloid  1.4550 0.9962 0.003522       0.005161
+sd.d                                      2.2164 0.7072 0.002500       0.006712
+
+2. Quantiles for each variable:
+
+                                            2.5%     25%     50%   75% 97.5%
+d.Isotonic_Crystalloid.Combination       -3.9885 -1.5986 -0.5747 0.460 2.841
+d.Isotonic_Crystalloid.Natural_Colloid   -0.3837  1.0326  1.6920 2.368 3.960
+d.Isotonic_Crystalloid.Synthetic_Colloid -0.5297  0.8355  1.4550 2.071 3.452
+sd.d                                      1.1774  1.7193  2.0979 2.583 3.958

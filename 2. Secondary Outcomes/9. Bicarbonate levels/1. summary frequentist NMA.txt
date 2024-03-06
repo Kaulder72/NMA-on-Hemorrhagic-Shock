@@ -1,0 +1,96 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                            treat1        treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+Yeoh et al., 2019              HSD            RL  3.2000 0.8344     0.8344     2.5956     2         
+Chávez-Negrete et al., 1991    HSD            RL -4.8000 1.7579     1.7579     3.0218     2         
+Dubin et al., 2010             HES            NS  1.6000 1.6801     1.6801     2.9772     2         
+Young et al., 2014              NS        Plasma -4.0000 1.0372     1.0372     2.6677     2         
+Ghafari et al., 2008           HSD            RL -0.3000 0.4397     0.4397     2.4968     2         
+Yu et al., 2022                BRS            NS  1.1900 0.4816     0.4816     2.5045     2         
+James et al., 2011             HES            NS -0.1600 0.7669     0.7669     2.5747     2         
+Veroli and Benhamou, 1992       NS            RL -0.0000 1.2841     1.6614     3.4336     3        *
+Veroli and Benhamou, 1992       HS            RL  0.2000 1.0959     1.2460     3.2378     3        *
+Veroli and Benhamou, 1992       HS            NS  0.2000 1.2649     1.5949     3.4104     3        *
+Maningas et al., 1989          HSD plasma-lyte A -1.0000 1.5781     1.5781     2.9208     2         
+
+Number of treatment arms (by study):
+                            narms
+Yeoh et al., 2019               2
+Chávez-Negrete et al., 1991     2
+Dubin et al., 2010              2
+Young et al., 2014              2
+Ghafari et al., 2008            2
+Yu et al., 2022                 2
+James et al., 2011              2
+Veroli and Benhamou, 1992       3
+Maningas et al., 1989           2
+
+Results (common effects model):
+
+                            treat1        treat2      MD             95%-CI     Q leverage
+Yeoh et al., 2019              HSD            RL  0.2152 [-0.5292;  0.9596] 12.80     0.21
+Chávez-Negrete et al., 1991    HSD            RL  0.2152 [-0.5292;  0.9596]  8.14     0.05
+Dubin et al., 2010             HES            NS  0.1435 [-1.2239;  1.5109]  0.75     0.17
+Young et al., 2014              NS        Plasma -4.0000 [-6.0328; -1.9672]  0.00     1.00
+Ghafari et al., 2008           HSD            RL  0.2152 [-0.5292;  0.9596]  1.37     0.75
+Yu et al., 2022                BRS            NS  1.1900 [ 0.2461;  2.1339]  0.00     1.00
+James et al., 2011             HES            NS  0.1435 [-1.2239;  1.5109]  0.16     0.83
+Veroli and Benhamou, 1992       NS            RL -0.0000 [-2.5169;  2.5169]  0.00        .
+Veroli and Benhamou, 1992       HS            RL  0.2000 [-1.9479;  2.3479]  0.00        .
+Veroli and Benhamou, 1992       HS            NS  0.2000 [-2.2792;  2.6792]  0.00        .
+Maningas et al., 1989          HSD plasma-lyte A -1.0000 [-4.0930;  2.0930]  0.00     1.00
+
+Results (random effects model):
+
+                            treat1        treat2      MD            95%-CI
+Yeoh et al., 2019              HSD            RL -0.2362 [-3.2664; 2.7940]
+Chávez-Negrete et al., 1991    HSD            RL -0.2362 [-3.2664; 2.7940]
+Dubin et al., 2010             HES            NS  0.5931 [-3.2238; 4.4100]
+Young et al., 2014              NS        Plasma -4.0000 [-9.2286; 1.2286]
+Ghafari et al., 2008           HSD            RL -0.2362 [-3.2664; 2.7940]
+Yu et al., 2022                BRS            NS  1.1900 [-3.7188; 6.0988]
+James et al., 2011             HES            NS  0.5931 [-3.2238; 4.4100]
+Veroli and Benhamou, 1992       NS            RL -0.0000 [-5.4351; 5.4351]
+Veroli and Benhamou, 1992       HS            RL  0.2000 [-5.0744; 5.4744]
+Veroli and Benhamou, 1992       HS            NS  0.2000 [-5.2177; 5.6177]
+Maningas et al., 1989          HSD plasma-lyte A -1.0000 [-6.7247; 4.7247]
+
+Number of studies: k = 9
+Number of pairwise comparisons: m = 11
+Number of treatments: n = 8
+Number of designs: d = 6
+
+Common effects model
+
+Treatment estimate (sm = 'MD', comparison: other treatments vs 'NS'):
+                  MD            95%-CI    z p-value
+BRS           1.1900 [ 0.2461; 2.1339] 2.47  0.0135
+HES           0.1435 [-1.2239; 1.5109] 0.21  0.8370
+HS            0.2000 [-2.2792; 2.6792] 0.16  0.8744
+HSD           0.2152 [-2.4095; 2.8398] 0.16  0.8723
+NS                 .                 .    .       .
+Plasma        4.0000 [ 1.9672; 6.0328] 3.86  0.0001
+plasma-lyte A 1.2152 [-2.8414; 5.2717] 0.59  0.5571
+RL            0.0000 [-2.5169; 2.5169] 0.00  1.0000
+
+Random effects model
+
+Treatment estimate (sm = 'MD', comparison: other treatments vs 'NS'):
+                   MD            95%-CI     z p-value
+BRS            1.1900 [-3.7188; 6.0988]  0.48  0.6347
+HES            0.5931 [-3.2238; 4.4100]  0.30  0.7607
+HS             0.2000 [-5.2177; 5.6177]  0.07  0.9423
+HSD           -0.2362 [-6.4589; 5.9865] -0.07  0.9407
+NS                  .                 .     .       .
+Plasma         4.0000 [-1.2286; 9.2286]  1.50  0.1338
+plasma-lyte A  0.7638 [-7.6916; 9.2193]  0.18  0.8595
+RL             0.0000 [-5.4351; 5.4351]  0.00  1.0000
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 6.0408; tau = 2.4578; I^2 = 87.1% [69.0%; 94.6%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           23.22    3 < 0.0001
+Within designs  23.22    3 < 0.0001
+Between designs  0.00    0       --

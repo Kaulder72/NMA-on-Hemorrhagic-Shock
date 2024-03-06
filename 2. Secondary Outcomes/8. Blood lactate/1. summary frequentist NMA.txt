@@ -1,0 +1,104 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                       treat1 treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+Caironi et al., 2014  Albumin     NS -0.1000 0.0472     0.0472     1.3131     2         
+Young et al., 2014         NS Plasma -0.7000 0.7869     0.7869     1.5301     2         
+Gu et al., 2020           HES     NS  1.4000 0.1662     0.1662     1.3227     2         
+James et al., 2011        HES     NS -0.8600 0.3391     0.3391     1.3553     2         
+Jousi et al., 2010         HS     RL -0.2500 0.4521     0.4521     1.3879     2         
+Lu, Li and Li, 2015       HES     RL -0.5000 0.3501     0.3501     1.3581     2         
+Oliveira et al., 2002     HSD     NS -0.2000 0.2366     0.2366     1.3334     2         
+Yu et al., 2022           BRS     NS -0.7000 0.2554     0.2554     1.3368     2         
+Dubin et al., 2010        HES     NS -1.1000 0.9926     0.9926     1.6454     2         
+Crombie et al., 2022       NS Plasma -0.1100 0.4370     0.4370     1.3831     2         
+Rackow et al., 1983   Albumin    HES -0.2200 0.6462     0.9012     1.8250     3        *
+Rackow et al., 1983   Albumin     NS  2.1400 0.6186     0.7700     1.7925     3        *
+Rackow et al., 1983       HES     NS  2.3600 0.4735     0.5165     1.6643     3        *
+
+Number of treatment arms (by study):
+                      narms
+Caironi et al., 2014      2
+Young et al., 2014        2
+Gu et al., 2020           2
+James et al., 2011        2
+Jousi et al., 2010        2
+Lu, Li and Li, 2015       2
+Oliveira et al., 2002     2
+Yu et al., 2022           2
+Dubin et al., 2010        2
+Crombie et al., 2022      2
+Rackow et al., 1983       3
+
+Results (common effects model):
+
+                       treat1 treat2      MD             95%-CI     Q leverage
+Caironi et al., 2014  Albumin     NS -0.0892 [-0.1815;  0.0030]  0.05     0.99
+Young et al., 2014         NS Plasma -0.2491 [-0.9978;  0.4997]  0.33     0.24
+Gu et al., 2020           HES     NS  1.0039 [ 0.7291;  1.2786]  5.68     0.71
+James et al., 2011        HES     NS  1.0039 [ 0.7291;  1.2786] 30.22     0.17
+Jousi et al., 2010         HS     RL -0.2500 [-1.1361;  0.6361]  0.00     1.00
+Lu, Li and Li, 2015       HES     RL -0.5000 [-1.1862;  0.1862]  0.00     1.00
+Oliveira et al., 2002     HSD     NS -0.2000 [-0.6637;  0.2637]  0.00     1.00
+Yu et al., 2022           BRS     NS -0.7000 [-1.2005; -0.1995]  0.00     1.00
+Dubin et al., 2010        HES     NS  1.0039 [ 0.7291;  1.2786]  4.49     0.02
+Crombie et al., 2022       NS Plasma -0.2491 [-0.9978;  0.4997]  0.10     0.76
+Rackow et al., 1983   Albumin    HES -1.0931 [-1.3822; -0.8040]  0.94        .
+Rackow et al., 1983   Albumin     NS -0.0892 [-0.1815;  0.0030]  8.38        .
+Rackow et al., 1983       HES     NS  1.0039 [ 0.7291;  1.2786]  6.89        .
+
+Results (random effects model):
+
+                       treat1 treat2      MD            95%-CI
+Caironi et al., 2014  Albumin     NS  0.5742 [-1.2539; 2.4023]
+Young et al., 2014         NS Plasma -0.3753 [-2.3863; 1.6357]
+Gu et al., 2020           HES     NS  0.4734 [-0.8886; 1.8353]
+James et al., 2011        HES     NS  0.4734 [-0.8886; 1.8353]
+Jousi et al., 2010         HS     RL -0.2500 [-2.9703; 2.4703]
+Lu, Li and Li, 2015       HES     RL -0.5000 [-3.1619; 2.1619]
+Oliveira et al., 2002     HSD     NS -0.2000 [-2.8134; 2.4134]
+Yu et al., 2022           BRS     NS -0.7000 [-3.3201; 1.9201]
+Dubin et al., 2010        HES     NS  0.4734 [-0.8886; 1.8353]
+Crombie et al., 2022       NS Plasma -0.3753 [-2.3863; 1.6357]
+Rackow et al., 1983   Albumin    HES  0.1008 [-1.9636; 2.1652]
+Rackow et al., 1983   Albumin     NS  0.5742 [-1.2539; 2.4023]
+Rackow et al., 1983       HES     NS  0.4734 [-0.8886; 1.8353]
+
+Number of studies: k = 11
+Number of pairwise comparisons: m = 13
+Number of treatments: n = 8
+Number of designs: d = 8
+
+Common effects model
+
+Treatment estimate (sm = 'MD', comparison: other treatments vs 'NS'):
+             MD             95%-CI     z  p-value
+Albumin -0.0892 [-0.1815;  0.0030] -1.90   0.0579
+BRS     -0.7000 [-1.2005; -0.1995] -2.74   0.0061
+HES      1.0039 [ 0.7291;  1.2786]  7.16 < 0.0001
+HS       1.2539 [ 0.0999;  2.4078]  2.13   0.0332
+HSD     -0.2000 [-0.6637;  0.2637] -0.85   0.3979
+NS            .                  .     .        .
+Plasma   0.2491 [-0.4997;  0.9978]  0.65   0.5144
+RL       1.5039 [ 0.7647;  2.2431]  3.99 < 0.0001
+
+Random effects model
+
+Treatment estimate (sm = 'MD', comparison: other treatments vs 'NS'):
+             MD            95%-CI     z p-value
+Albumin  0.5742 [-1.2539; 2.4023]  0.62  0.5382
+BRS     -0.7000 [-3.3201; 1.9201] -0.52  0.6005
+HES      0.4734 [-0.8886; 1.8353]  0.68  0.4957
+HS       0.7234 [-3.3189; 4.7657]  0.35  0.7258
+HSD     -0.2000 [-2.8134; 2.4134] -0.15  0.8808
+NS            .                 .     .       .
+Plasma   0.3753 [-1.6357; 2.3863]  0.37  0.7145
+RL       0.9734 [-2.0167; 3.9634]  0.64  0.5234
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 1.7219; tau = 1.3122; I^2 = 91.2% [83.7%; 95.3%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                    Q d.f.  p-value
+Total           57.09    5 < 0.0001
+Within designs  40.47    3 < 0.0001
+Between designs 16.62    2   0.0002

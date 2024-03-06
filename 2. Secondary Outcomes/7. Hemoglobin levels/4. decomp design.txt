@@ -1,0 +1,27 @@
+Q statistics to assess homogeneity / consistency
+
+                    Q df  p-value
+Total           71.23  7 < 0.0001
+Within designs   3.91  2   0.1414
+Between designs 67.32  5 < 0.0001
+
+Design-specific decomposition of within-designs Q statistic
+
+     Design    Q df p-value
+     NS:HES 3.83  1  0.0502
+ NS:Albumin 0.08  1  0.7803
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from < 0.0001)
+
+ Detached design     Q df  p-value
+  NS:Albumin:HES 31.55  3 < 0.0001
+          HES:RL 40.39  4 < 0.0001
+          NS:HES 64.25  4 < 0.0001
+      NS:Albumin 67.11  4 < 0.0001
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                    Q df  p-value tau.within tau2.within
+Between designs 44.26  5 < 0.0001     0.3327      0.1107

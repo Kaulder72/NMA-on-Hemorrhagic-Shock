@@ -1,0 +1,9 @@
+Network table (random) effects model):
+
+             Arm 1                Arm 2 k    I2     Direct estimate   Indirect estimate Network meta-analysis Incoherence
+       Combination Isotonic Crystalloid 2  0.0% -0.57 [-2.90; 1.77]                   .   -0.57 [-2.90; 1.77]           .
+       Combination      Natural Colloid 0     .                   . -2.20 [-5.00; 0.61]   -2.20 [-5.00; 0.61]           .
+       Combination    Synthetic Colloid 0     .                   . -2.02 [-4.76; 0.72]   -2.02 [-4.76; 0.72]           .
+   Natural Colloid Isotonic Crystalloid 5 81.9%  1.43 [-0.18; 3.05]  3.86 [-1.58; 9.29]    1.63 [ 0.08; 3.18]      0.4023
+ Synthetic Colloid Isotonic Crystalloid 6 89.7%  1.62 [ 0.15; 3.09] -2.12 [-8.94; 4.70]    1.45 [ 0.02; 2.89]      0.2938
+   Natural Colloid    Synthetic Colloid 4  0.0%  0.82 [-1.04; 2.69] -2.44 [-6.20; 1.31]    0.18 [-1.49; 1.85]      0.1267

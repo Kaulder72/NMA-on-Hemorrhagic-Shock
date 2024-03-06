@@ -1,0 +1,260 @@
+Original data (with adjusted standard errors for multi-arm studies):
+
+                                                         treat1                 treat2      TE   seTE seTE.adj.f seTE.adj.r narms multiarm
+Lucas et al., 1978                         Isotonic Crystalloid        Natural Colloid -2.9263 1.4904     1.4904     1.5667     2         
+Lu, Li and Li, 2015                        Isotonic Crystalloid      Synthetic Colloid  1.2558 1.6570     1.6570     1.7259     2         
+Kotzampassi et al., 2011                        Natural Colloid      Synthetic Colloid  1.2680 1.6503     1.6503     1.7195     2         
+Jousi et al., 2010                       Hypertonic Crystalloid   Isotonic Crystalloid -0.5754 1.2720     1.2720     1.3606     2         
+Rizoli et al., 2006                                 Combination   Isotonic Crystalloid -1.4351 1.6048     1.6048     1.6758     2         
+Wu et al., 2001                            Isotonic Crystalloid      Synthetic Colloid  0.6131 0.9863     0.9863     1.0981     2         
+Heradstveit et al., 2010                            Combination Hypertonic Crystalloid -0.1335 1.1260     1.1260     1.2251     2         
+Trof et al., 2010                          Isotonic Crystalloid      Synthetic Colloid -0.9163 0.9874     1.1619     1.3037     3        *
+Trof et al., 2010                          Isotonic Crystalloid        Natural Colloid  0.0000 1.0954     1.4697     1.5741     3        *
+Trof et al., 2010                               Natural Colloid      Synthetic Colloid -0.9163 0.9874     1.1619     1.3037     3        *
+Vlachou, Gosling and Moiemen, 2010                  Combination   Isotonic Crystalloid  0.1823 1.0878     1.0878     1.1902     2         
+Younes et al., 1998                        Isotonic Crystalloid      Synthetic Colloid  0.6286 1.0288     1.0288     1.1364     2         
+Cooper et al., 2006                                 Combination   Isotonic Crystalloid  1.4171 1.2005     1.2005     1.2940     2         
+van der Heijden et al., 2009             Hypertonic Crystalloid        Natural Colloid  0.1178 0.7788     0.7788     0.9163     2         
+Joosten et al., 2018                       Isotonic Crystalloid      Synthetic Colloid  2.2482 1.4992     1.4992     1.5751     2         
+Rhind et al., 2010                                  Combination   Isotonic Crystalloid -0.2963 0.6997     0.6997     0.8501     2         
+Young et al., 2014                         Isotonic Crystalloid        Natural Colloid  0.2364 0.8282     0.8282     0.9587     2         
+Maningas et al., 1989                               Combination   Isotonic Crystalloid -0.5108 0.7958     0.7958     0.9308     2         
+Dubin et al., 2010                         Isotonic Crystalloid      Synthetic Colloid  1.8971 1.2213     1.2213     1.3133     2         
+Alpar and Killampalli, 2004                         Combination   Isotonic Crystalloid -0.6011 0.5011     0.5011     0.6958     2         
+Smorenberg and Groeneveld, 2015            Isotonic Crystalloid      Synthetic Colloid -1.2465 1.1263     1.1263     1.2254     2         
+Béchir et al., 2013                        Isotonic Crystalloid      Synthetic Colloid -0.3522 0.6487     0.6487     0.8087     2         
+Veneman, Oude Nijhuis and Woittiez, 2004   Isotonic Crystalloid        Natural Colloid -0.9220 0.7475     0.9161     1.0905     3        *
+Veneman, Oude Nijhuis and Woittiez, 2004        Natural Colloid      Synthetic Colloid -0.2719 0.7387     0.8952     1.0728     3        *
+Veneman, Oude Nijhuis and Woittiez, 2004   Isotonic Crystalloid      Synthetic Colloid -1.1939 0.7541     0.9329     1.1044     3        *
+Vassar, Perry and Holcroft, 1993         Hypertonic Crystalloid   Isotonic Crystalloid  0.3147 0.4706     0.6164     0.8495     3        *
+Vassar, Perry and Holcroft, 1993                    Combination   Isotonic Crystalloid  0.6024 0.4479     0.5462     0.8070     3        *
+Vassar, Perry and Holcroft, 1993                    Combination Hypertonic Crystalloid  0.2877 0.4162     0.4823     0.7597     3        *
+Martin et al., 2005                        Isotonic Crystalloid        Natural Colloid  0.4184 0.6495     0.6495     0.8093     2         
+Harutjunyan et al., 2005                            Combination Hypertonic Crystalloid -0.7621 0.7216     0.7216     0.8682     2         
+Oliveira et al., 2002                               Combination   Isotonic Crystalloid -1.3218 0.7923     0.7923     0.9279     2         
+Gu et al., 2020                            Isotonic Crystalloid      Synthetic Colloid  1.0683 0.5524     0.5524     0.7337     2         
+Gondos et al., 2010                        Isotonic Crystalloid      Synthetic Colloid  0.2082 0.4570     0.5550     0.8110     3        *
+Gondos et al., 2010                        Isotonic Crystalloid        Natural Colloid  0.2082 0.4570     0.5550     0.8110     3        *
+Gondos et al., 2010                             Natural Colloid      Synthetic Colloid -0.0000 0.4683     0.5835     0.8304     3        *
+Morrison et al., 2011                               Combination   Isotonic Crystalloid  0.1823 0.4309     0.4309     0.6472     2         
+Vassar et al., 1993                      Hypertonic Crystalloid   Isotonic Crystalloid -0.4499 0.4150     0.5134     0.7830     3        *
+Vassar et al., 1993                                 Combination   Isotonic Crystalloid -0.2856 0.4124     0.5067     0.7788     3        *
+Vassar et al., 1993                                 Combination Hypertonic Crystalloid  0.1643 0.4056     0.4905     0.7681     3        *
+Younes and Birolini, 2002                           Combination   Isotonic Crystalloid -0.4344 0.2994     0.2994     0.5681     2         
+Guidet et al., 2012                        Isotonic Crystalloid      Synthetic Colloid -0.2985 0.3199     0.3199     0.5792     2         
+Bulger et al., 2008                                 Combination   Isotonic Crystalloid  0.3618 0.3202     0.3202     0.5793     2         
+Mattox et al., 1991                                 Combination   Isotonic Crystalloid -0.2229 0.2529     0.2529     0.5451     2         
+Yeoh et al., 2019                                   Combination   Isotonic Crystalloid -0.3376 0.3219     0.3219     0.5803     2         
+Guyette et al., 2021                       Isotonic Crystalloid        Natural Colloid  0.6480 0.2702     0.2702     0.5533     2         
+Bulger et al., 2011                                 Combination Hypertonic Crystalloid -0.0775 0.2093     0.2793     0.6510     3        *
+Bulger et al., 2011                                 Combination   Isotonic Crystalloid -0.0180 0.1945     0.2337     0.6367     3        *
+Bulger et al., 2011                      Hypertonic Crystalloid   Isotonic Crystalloid  0.0595 0.1837     0.2127     0.6273     3        *
+Bulger et al., 2010                                 Combination   Isotonic Crystalloid  0.0791 0.1725     0.1725     0.5127     2         
+Crombie et al., 2022                       Isotonic Crystalloid        Natural Colloid  0.1327 0.1947     0.1947     0.5206     2         
+Pusateri et al., 2020                      Isotonic Crystalloid        Natural Colloid  0.4367 0.1885     0.1885     0.5183     2         
+Brown et al., 2019                                  Combination   Isotonic Crystalloid -0.2384 0.1093     0.1093     0.4951     2         
+Caironi et al., 2014                       Isotonic Crystalloid        Natural Colloid  1.5147 0.1013     0.1013     0.4933     2         
+Finfer et al., 2006                        Isotonic Crystalloid        Natural Colloid  0.0148 0.0626     0.0626     0.4869     2         
+Annane et al., 2013                      Hypertonic Crystalloid      Synthetic Colloid  0.2109 0.0761     0.0761     0.4888     2         
+Semler et al., 2018                                 Combination   Isotonic Crystalloid -0.0680 0.0489     0.0489     0.4853     2         
+
+Number of treatment arms (by study):
+                                         narms
+Lucas et al., 1978                           2
+Lu, Li and Li, 2015                          2
+Kotzampassi et al., 2011                     2
+Jousi et al., 2010                           2
+Rizoli et al., 2006                          2
+Wu et al., 2001                              2
+Heradstveit et al., 2010                     2
+Trof et al., 2010                            3
+Vlachou, Gosling and Moiemen, 2010           2
+Younes et al., 1998                          2
+Cooper et al., 2006                          2
+van der Heijden et al., 2009                 2
+Joosten et al., 2018                         2
+Rhind et al., 2010                           2
+Young et al., 2014                           2
+Maningas et al., 1989                        2
+Dubin et al., 2010                           2
+Alpar and Killampalli, 2004                  2
+Smorenberg and Groeneveld, 2015              2
+Béchir et al., 2013                          2
+Veneman, Oude Nijhuis and Woittiez, 2004     3
+Vassar, Perry and Holcroft, 1993             3
+Martin et al., 2005                          2
+Harutjunyan et al., 2005                     2
+Oliveira et al., 2002                        2
+Gu et al., 2020                              2
+Gondos et al., 2010                          3
+Morrison et al., 2011                        2
+Vassar et al., 1993                          3
+Younes and Birolini, 2002                    2
+Guidet et al., 2012                          2
+Bulger et al., 2008                          2
+Mattox et al., 1991                          2
+Yeoh et al., 2019                            2
+Guyette et al., 2021                         2
+Bulger et al., 2011                          3
+Bulger et al., 2010                          2
+Crombie et al., 2022                         2
+Pusateri et al., 2020                        2
+Brown et al., 2019                           2
+Caironi et al., 2014                         2
+Finfer et al., 2006                          2
+Annane et al., 2013                          2
+Semler et al., 2018                          2
+
+Results (common effects model):
+
+                                                         treat1                 treat2     OR           95%-CI      Q leverage
+Lucas et al., 1978                         Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   5.00     0.00
+Lu, Li and Li, 2015                        Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   0.42     0.01
+Kotzampassi et al., 2011                        Natural Colloid      Synthetic Colloid 0.8002 [0.6248; 1.0249]   0.82     0.01
+Jousi et al., 2010                       Hypertonic Crystalloid   Isotonic Crystalloid 1.0126 [0.8127; 1.2617]   0.21     0.01
+Rizoli et al., 2006                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.70     0.00
+Wu et al., 2001                            Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   0.19     0.01
+Heradstveit et al., 2010                            Combination Hypertonic Crystalloid 0.9031 [0.7209; 1.1314]   0.00     0.01
+Trof et al., 2010                          Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   0.90        .
+Trof et al., 2010                          Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   0.08        .
+Trof et al., 2010                               Natural Colloid      Synthetic Colloid 0.8002 [0.6248; 1.0249]   0.36        .
+Vlachou, Gosling and Moiemen, 2010                  Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.06     0.00
+Younes et al., 1998                        Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   0.19     0.01
+Cooper et al., 2006                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   1.57     0.00
+van der Heijden et al., 2009             Hypertonic Crystalloid        Natural Colloid 1.5202 [1.2003; 1.9252]   0.15     0.02
+Joosten et al., 2018                       Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   1.90     0.01
+Rhind et al., 2010                                  Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.09     0.00
+Young et al., 2014                         Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   0.04     0.00
+Maningas et al., 1989                               Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.28     0.00
+Dubin et al., 2010                         Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   1.97     0.01
+Alpar and Killampalli, 2004                         Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   1.04     0.01
+Smorenberg and Groeneveld, 2015            Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   1.61     0.01
+Béchir et al., 2013                        Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   0.68     0.03
+Veneman, Oude Nijhuis and Woittiez, 2004   Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   2.10        .
+Veneman, Oude Nijhuis and Woittiez, 2004        Natural Colloid      Synthetic Colloid 0.8002 [0.6248; 1.0249]   0.00        .
+Veneman, Oude Nijhuis and Woittiez, 2004   Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   2.18        .
+Vassar, Perry and Holcroft, 1993         Hypertonic Crystalloid   Isotonic Crystalloid 1.0126 [0.8127; 1.2617]   0.24        .
+Vassar, Perry and Holcroft, 1993                    Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   1.60        .
+Vassar, Perry and Holcroft, 1993                    Combination Hypertonic Crystalloid 0.9031 [0.7209; 1.1314]   0.65        .
+Martin et al., 2005                        Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   0.00     0.01
+Harutjunyan et al., 2005                            Combination Hypertonic Crystalloid 0.9031 [0.7209; 1.1314]   0.84     0.03
+Oliveira et al., 2002                               Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   2.42     0.00
+Gu et al., 2020                            Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   2.57     0.05
+Gondos et al., 2010                        Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   0.00        .
+Gondos et al., 2010                        Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   0.13        .
+Gondos et al., 2010                             Natural Colloid      Synthetic Colloid 0.8002 [0.6248; 1.0249]   0.15        .
+Morrison et al., 2011                               Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.40     0.01
+Vassar et al., 1993                      Hypertonic Crystalloid   Isotonic Crystalloid 1.0126 [0.8127; 1.2617]   0.81        .
+Vassar et al., 1993                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.15        .
+Vassar et al., 1993                                 Combination Hypertonic Crystalloid 0.9031 [0.7209; 1.1314]   0.29        .
+Younes and Birolini, 2002                           Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   1.33     0.02
+Guidet et al., 2012                        Isotonic Crystalloid      Synthetic Colloid 1.2013 [0.9521; 1.5158]   2.27     0.14
+Bulger et al., 2008                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   1.99     0.02
+Mattox et al., 1991                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.28     0.02
+Yeoh et al., 2019                                   Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.59     0.02
+Guyette et al., 2021                       Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   0.80     0.03
+Bulger et al., 2011                                 Combination Hypertonic Crystalloid 0.9031 [0.7209; 1.1314]   0.01        .
+Bulger et al., 2011                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.09        .
+Bulger et al., 2011                      Hypertonic Crystalloid   Isotonic Crystalloid 1.0126 [0.8127; 1.2617]   0.05        .
+Bulger et al., 2010                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.95     0.05
+Crombie et al., 2022                       Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   1.97     0.06
+Pusateri et al., 2020                      Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]   0.03     0.06
+Brown et al., 2019                                  Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   1.86     0.13
+Caironi et al., 2014                       Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490] 119.82     0.22
+Finfer et al., 2006                        Isotonic Crystalloid        Natural Colloid 1.5013 [1.3668; 1.6490]  39.06     0.58
+Annane et al., 2013                      Hypertonic Crystalloid      Synthetic Colloid 1.2165 [1.0560; 1.4013]   0.04     0.90
+Semler et al., 2018                                 Combination   Isotonic Crystalloid 0.9145 [0.8464; 0.9881]   0.19     0.65
+
+Results (random effects model):
+
+                                                         treat1                 treat2     OR           95%-CI
+Lucas et al., 1978                         Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Lu, Li and Li, 2015                        Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Kotzampassi et al., 2011                        Natural Colloid      Synthetic Colloid 0.8357 [0.4883; 1.4302]
+Jousi et al., 2010                       Hypertonic Crystalloid   Isotonic Crystalloid 0.9374 [0.5828; 1.5078]
+Rizoli et al., 2006                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Wu et al., 2001                            Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Heradstveit et al., 2010                            Combination Hypertonic Crystalloid 0.9319 [0.5717; 1.5191]
+Trof et al., 2010                          Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Trof et al., 2010                          Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Trof et al., 2010                               Natural Colloid      Synthetic Colloid 0.8357 [0.4883; 1.4302]
+Vlachou, Gosling and Moiemen, 2010                  Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Younes et al., 1998                        Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Cooper et al., 2006                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+van der Heijden et al., 2009             Hypertonic Crystalloid        Natural Colloid 1.3639 [0.7670; 2.4255]
+Joosten et al., 2018                       Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Rhind et al., 2010                                  Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Young et al., 2014                         Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Maningas et al., 1989                               Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Dubin et al., 2010                         Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Alpar and Killampalli, 2004                         Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Smorenberg and Groeneveld, 2015            Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Béchir et al., 2013                        Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Veneman, Oude Nijhuis and Woittiez, 2004   Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Veneman, Oude Nijhuis and Woittiez, 2004        Natural Colloid      Synthetic Colloid 0.8357 [0.4883; 1.4302]
+Veneman, Oude Nijhuis and Woittiez, 2004   Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Vassar, Perry and Holcroft, 1993         Hypertonic Crystalloid   Isotonic Crystalloid 0.9374 [0.5828; 1.5078]
+Vassar, Perry and Holcroft, 1993                    Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Vassar, Perry and Holcroft, 1993                    Combination Hypertonic Crystalloid 0.9319 [0.5717; 1.5191]
+Martin et al., 2005                        Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Harutjunyan et al., 2005                            Combination Hypertonic Crystalloid 0.9319 [0.5717; 1.5191]
+Oliveira et al., 2002                               Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Gu et al., 2020                            Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Gondos et al., 2010                        Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Gondos et al., 2010                        Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Gondos et al., 2010                             Natural Colloid      Synthetic Colloid 0.8357 [0.4883; 1.4302]
+Morrison et al., 2011                               Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Vassar et al., 1993                      Hypertonic Crystalloid   Isotonic Crystalloid 0.9374 [0.5828; 1.5078]
+Vassar et al., 1993                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Vassar et al., 1993                                 Combination Hypertonic Crystalloid 0.9319 [0.5717; 1.5191]
+Younes and Birolini, 2002                           Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Guidet et al., 2012                        Isotonic Crystalloid      Synthetic Colloid 1.2159 [0.7748; 1.9081]
+Bulger et al., 2008                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Mattox et al., 1991                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Yeoh et al., 2019                                   Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Guyette et al., 2021                       Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Bulger et al., 2011                                 Combination Hypertonic Crystalloid 0.9319 [0.5717; 1.5191]
+Bulger et al., 2011                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Bulger et al., 2011                      Hypertonic Crystalloid   Isotonic Crystalloid 0.9374 [0.5828; 1.5078]
+Bulger et al., 2010                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Crombie et al., 2022                       Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Pusateri et al., 2020                      Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Brown et al., 2019                                  Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+Caironi et al., 2014                       Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Finfer et al., 2006                        Isotonic Crystalloid        Natural Colloid 1.4550 [1.0079; 2.1003]
+Annane et al., 2013                      Hypertonic Crystalloid      Synthetic Colloid 1.1398 [0.6410; 2.0266]
+Semler et al., 2018                                 Combination   Isotonic Crystalloid 0.8736 [0.6511; 1.1721]
+
+Number of studies: k = 44
+Number of pairwise comparisons: m = 56
+Number of treatments: n = 5
+Number of designs: d = 10
+
+Common effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Isotonic Crystalloid'):
+                           OR           95%-CI     z  p-value
+Combination            0.9145 [0.8464; 0.9881] -2.26   0.0237
+Hypertonic Crystalloid 1.0126 [0.8127; 1.2617]  0.11   0.9112
+Isotonic Crystalloid        .                .     .        .
+Natural Colloid        0.6661 [0.6064; 0.7316] -8.49 < 0.0001
+Synthetic Colloid      0.8324 [0.6597; 1.0503] -1.55   0.1220
+
+Random effects model
+
+Treatment estimate (sm = 'OR', comparison: other treatments vs 'Isotonic Crystalloid'):
+                           OR           95%-CI     z p-value
+Combination            0.8736 [0.6511; 1.1721] -0.90  0.3675
+Hypertonic Crystalloid 0.9374 [0.5828; 1.5078] -0.27  0.7898
+Isotonic Crystalloid        .                .     .       .
+Natural Colloid        0.6873 [0.4761; 0.9921] -2.00  0.0453
+Synthetic Colloid      0.8224 [0.5241; 1.2907] -0.85  0.3952
+
+Quantifying heterogeneity / inconsistency:
+tau^2 = 0.2331; tau = 0.4828; I^2 = 77.5% [70.4%; 82.9%]
+
+Tests of heterogeneity (within designs) and inconsistency (between designs):
+                     Q d.f.  p-value
+Total           204.12   46 < 0.0001
+Within designs  199.18   38 < 0.0001
+Between designs   4.93    8   0.7645

@@ -1,0 +1,24 @@
+Number of studies: k = 13
+Number of pairwise comparisons: m = 21
+
+Results for pairwise comparisons (common effect model):
+                                      m      MD             95%-CI    Q   I^2
+Combination:Hypertonic Crystalloid    1 -5.5000 [-9.6059; -1.3941] 0.00    --
+Combination:Isotonic Crystalloid      3 -1.2110 [-3.8586;  1.4365] 4.67 57.2%
+Hypertonic Crystalloid:Isotonic ...   1  6.0000 [-8.1640; 20.1640] 0.00    --
+Natural Colloid:Isotonic Crysta ...   6  1.7548 [ 0.6983;  2.8112] 9.54 47.6%
+Synthetic Colloid:Isotonic Crys ...   6  0.6417 [-1.4571;  2.7404] 2.73  0.0%
+Natural Colloid:Synthetic Colloid     4  4.1196 [ 1.0084;  7.2308] 1.57  0.0%
+
+Results for pairwise comparisons (random effects model):
+                                      m      MD             95%-CI  tau^2    tau
+Combination:Hypertonic Crystalloid    1 -5.5000 [-9.6059; -1.3941]     --     --
+Combination:Isotonic Crystalloid      3 -1.0844 [-5.1994;  3.0305] 7.5361 2.7452
+Hypertonic Crystalloid:Isotonic ...   1  6.0000 [-8.1640; 20.1640]     --     --
+Natural Colloid:Isotonic Crysta ...   6  2.7250 [ 0.3061;  5.1440] 3.4651 1.8615
+Synthetic Colloid:Isotonic Crys ...   6  0.6417 [-1.4571;  2.7404]      0      0
+Natural Colloid:Synthetic Colloid     4  4.1196 [ 1.0084;  7.2308]      0      0
+
+Details on meta-analytical method:
+- Inverse variance method
+- DerSimonian-Laird estimator for tau^2

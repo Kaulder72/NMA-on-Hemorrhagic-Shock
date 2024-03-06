@@ -1,0 +1,46 @@
+Linear regression test of funnel plot asymmetry
+
+Test result: t = -1.35, df = 20, p-value = 0.1933
+
+Sample estimates:
+    bias se.bias intercept se.intercept
+ -0.5221  0.3879    1.9236       1.0257
+
+Details:
+- multiplicative residual heterogeneity variance (tau^2 = 1.4093)
+- predictor: standard error
+- weight:    inverse variance
+- reference: Egger et al. (1997), BMJ
+> decomp.design(net1)
+Q statistics to assess homogeneity / consistency
+
+                    Q df p-value
+Total           29.62 14  0.0086
+Within designs  13.99 11  0.2334
+Between designs 15.63  3  0.0013
+
+Design-specific decomposition of within-designs Q statistic
+
+                                                 Design    Q df p-value
+            Isotonic Crystalloid:Hypertonic Crystalloid 2.82  1  0.0932
+                   Isotonic Crystalloid:Natural Colloid 2.22  1  0.1364
+ Isotonic Crystalloid:Natural Colloid:Synthetic Colloid 7.61  6  0.2685
+                       Isotonic Crystalloid:Combination 1.31  2  0.5188
+                 Isotonic Crystalloid:Synthetic Colloid 0.04  1  0.8445
+
+Between-designs Q statistic after detaching of single designs
+(influential designs have p-value markedly different from 0.0013)
+
+                                        Detached design     Q df p-value
+                 Isotonic Crystalloid:Synthetic Colloid  1.19  2  0.5516
+ Isotonic Crystalloid:Natural Colloid:Synthetic Colloid  1.17  1  0.2787
+                   Isotonic Crystalloid:Natural Colloid 13.08  2  0.0014
+                     Combination:Hypertonic Crystalloid 14.46  2  0.0007
+                       Isotonic Crystalloid:Combination 14.46  2  0.0007
+            Isotonic Crystalloid:Hypertonic Crystalloid 14.46  2  0.0007
+
+Q statistic to assess consistency under the assumption of
+a full design-by-treatment interaction random effects model
+
+                    Q df p-value tau.within tau2.within
+Between designs 10.03  3  0.0183     2.0416      4.1682

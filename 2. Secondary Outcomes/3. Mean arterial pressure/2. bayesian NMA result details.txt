@@ -1,0 +1,37 @@
+Results on the Mean Difference scale
+
+Iterations = 5001:25000
+Thinning interval = 1 
+Number of chains = 4 
+Sample size per chain = 20000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                                                 Mean    SD Naive SE
+d.Isotonic_Crystalloid.Combination            -1.0883 1.809 0.006394
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid  4.5966 3.185 0.011259
+d.Isotonic_Crystalloid.Natural_Colloid         2.6257 1.292 0.004568
+d.Isotonic_Crystalloid.Synthetic_Colloid       0.1552 1.452 0.005135
+sd.d                                           1.9342 1.002 0.003544
+                                              Time-series SE
+d.Isotonic_Crystalloid.Combination                   0.01931
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid        0.03810
+d.Isotonic_Crystalloid.Natural_Colloid               0.01161
+d.Isotonic_Crystalloid.Synthetic_Colloid             0.01546
+sd.d                                                 0.01869
+
+2. Quantiles for each variable:
+
+                                                 2.5%     25%    50%    75%
+d.Isotonic_Crystalloid.Combination            -4.6673 -2.2572 -1.102 0.0549
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid -1.6337  2.5486  4.598 6.6290
+d.Isotonic_Crystalloid.Natural_Colloid         0.1295  1.8167  2.564 3.4042
+d.Isotonic_Crystalloid.Synthetic_Colloid      -2.7200 -0.7835  0.155 1.1008
+sd.d                                           0.2901  1.2427  1.816 2.5041
+                                               97.5%
+d.Isotonic_Crystalloid.Combination             2.536
+d.Isotonic_Crystalloid.Hypertonic_Crystalloid 10.931
+d.Isotonic_Crystalloid.Natural_Colloid         5.341
+d.Isotonic_Crystalloid.Synthetic_Colloid       3.031
+sd.d                                           4.229

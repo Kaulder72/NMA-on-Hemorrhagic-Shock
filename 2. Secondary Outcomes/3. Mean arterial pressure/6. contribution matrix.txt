@@ -1,0 +1,51 @@
+Contribution matrix (Davies et al., 2022, Stat Med)
+
+Common effects model:
+
+                                            Combination:Hypertonic Crystalloid Combination:Isotonic Crystalloid Hypertonic Crystalloid:Isotonic Crystalloid
+Combination:Hypertonic Crystalloid                                      0.9249                           0.0375                                      0.0375
+Combination:Isotonic Crystalloid                                        0.0156                           0.9688                                      0.0156
+Combination:Natural Colloid                                             0.0103                           0.4764                                      0.0103
+Combination:Synthetic Colloid                                           0.0098                           0.4474                                      0.0098
+Hypertonic Crystalloid:Isotonic Crystalloid                             0.4468                           0.4468                                      0.1063
+Hypertonic Crystalloid:Natural Colloid                                  0.2942                           0.2942                                      0.0523
+Hypertonic Crystalloid:Synthetic Colloid                                0.2808                           0.2808                                      0.0491
+Isotonic Crystalloid:Natural Colloid                                    0.0000                           0.0000                                      0.0000
+Isotonic Crystalloid:Synthetic Colloid                                  0.0000                           0.0000                                      0.0000
+Natural Colloid:Synthetic Colloid                                       0.0000                           0.0000                                      0.0000
+                                            Isotonic Crystalloid:Natural Colloid Isotonic Crystalloid:Synthetic Colloid Natural Colloid:Synthetic Colloid
+Combination:Hypertonic Crystalloid                                        0.0000                                 0.0000                            0.0000
+Combination:Isotonic Crystalloid                                          0.0000                                 0.0000                            0.0000
+Combination:Natural Colloid                                               0.4704                                 0.0163                            0.0163
+Combination:Synthetic Colloid                                             0.0758                                 0.3814                            0.0758
+Hypertonic Crystalloid:Isotonic Crystalloid                               0.0000                                 0.0000                            0.0000
+Hypertonic Crystalloid:Natural Colloid                                    0.3337                                 0.0128                            0.0128
+Hypertonic Crystalloid:Synthetic Colloid                                  0.0593                                 0.2706                            0.0593
+Isotonic Crystalloid:Natural Colloid                                      0.9506                                 0.0247                            0.0247
+Isotonic Crystalloid:Synthetic Colloid                                    0.1146                                 0.7709                            0.1146
+Natural Colloid:Synthetic Colloid                                         0.3608                                 0.3608                            0.2785
+
+Random effects model:
+
+                                            Combination:Hypertonic Crystalloid Combination:Isotonic Crystalloid Hypertonic Crystalloid:Isotonic Crystalloid
+Combination:Hypertonic Crystalloid                                      0.9018                           0.0491                                      0.0491
+Combination:Isotonic Crystalloid                                        0.0195                           0.9610                                      0.0195
+Combination:Natural Colloid                                             0.0126                           0.4596                                      0.0126
+Combination:Synthetic Colloid                                           0.0122                           0.4438                                      0.0122
+Hypertonic Crystalloid:Isotonic Crystalloid                             0.4314                           0.4314                                      0.1372
+Hypertonic Crystalloid:Natural Colloid                                  0.2782                           0.2782                                      0.0656
+Hypertonic Crystalloid:Synthetic Colloid                                0.2711                           0.2711                                      0.0634
+Isotonic Crystalloid:Natural Colloid                                    0.0000                           0.0000                                      0.0000
+Isotonic Crystalloid:Synthetic Colloid                                  0.0000                           0.0000                                      0.0000
+Natural Colloid:Synthetic Colloid                                       0.0000                           0.0000                                      0.0000
+                                            Isotonic Crystalloid:Natural Colloid Isotonic Crystalloid:Synthetic Colloid Natural Colloid:Synthetic Colloid
+Combination:Hypertonic Crystalloid                                        0.0000                                 0.0000                            0.0000
+Combination:Isotonic Crystalloid                                          0.0000                                 0.0000                            0.0000
+Combination:Natural Colloid                                               0.4290                                 0.0431                            0.0431
+Combination:Synthetic Colloid                                             0.0756                                 0.3805                            0.0756
+Hypertonic Crystalloid:Isotonic Crystalloid                               0.0000                                 0.0000                            0.0000
+Hypertonic Crystalloid:Natural Colloid                                    0.3096                                 0.0342                            0.0342
+Hypertonic Crystalloid:Synthetic Colloid                                  0.0599                                 0.2746                            0.0599
+Isotonic Crystalloid:Natural Colloid                                      0.8693                                 0.0654                            0.0654
+Isotonic Crystalloid:Synthetic Colloid                                    0.1145                                 0.7710                            0.1145
+Natural Colloid:Synthetic Colloid                                         0.3202                                 0.3202                            0.3597

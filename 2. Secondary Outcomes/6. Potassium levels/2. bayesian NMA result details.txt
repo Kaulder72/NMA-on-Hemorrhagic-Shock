@@ -1,0 +1,31 @@
+Results on the Mean Difference scale
+
+Iterations = 5001:25000
+Thinning interval = 1 
+Number of chains = 4 
+Sample size per chain = 20000 
+
+1. Empirical mean and standard deviation for each variable,
+   plus standard error of the mean:
+
+                      Mean      SD  Naive SE Time-series SE
+d.NS.BRS           0.10308 0.27672 0.0009784      0.0019473
+d.NS.HH            0.15710 0.24278 0.0008583      0.0011761
+d.NS.HS            0.05706 0.15093 0.0005336      0.0009315
+d.NS.HSD           0.01505 0.22673 0.0008016      0.0016310
+d.NS.Plasma        0.10555 0.25070 0.0008864      0.0017771
+d.NS.plasma_lyte_A 0.11589 0.30864 0.0010912      0.0018696
+d.NS.RL            0.10411 0.15935 0.0005634      0.0011813
+sd.d               0.17229 0.07712 0.0002727      0.0013719
+
+2. Quantiles for each variable:
+
+                       2.5%       25%     50%    75%  97.5%
+d.NS.BRS           -0.47401 -0.064880 0.11023 0.2754 0.6455
+d.NS.HH            -0.34069  0.017594 0.15365 0.2956 0.6684
+d.NS.HS            -0.24604 -0.034766 0.05491 0.1475 0.3697
+d.NS.HSD           -0.46609 -0.119709 0.02584 0.1585 0.4467
+d.NS.Plasma        -0.39779 -0.052009 0.10584 0.2637 0.6094
+d.NS.plasma_lyte_A -0.53955 -0.065798 0.12982 0.3053 0.7156
+d.NS.RL            -0.23817  0.009504 0.11429 0.2046 0.4054
+sd.d                0.02155  0.114946 0.17539 0.2336 0.3008
