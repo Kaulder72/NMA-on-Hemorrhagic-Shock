@@ -1,0 +1,24 @@
+"random MD","BRS:NS","HES:NS","HSD:plasma_lyte_A","HSD:RL","NS:Plasma","NS:RL"
+"Mixed estimates",,,,,,
+"BRS:NS",100,0,0,0,0,0
+"HES:NS",0,100,0,0,0,0
+"HSD:RL",0,0,0,100,0,0
+"HSD:plasma_lyte_A",0,0,100,0,0,0
+"NS:Plasma",0,0,0,0,100,0
+"NS:RL",0,0,0,0,0,100
+"Indirect estimates",,,,,,
+"BRS:HES",50,50,0,0,0,0
+"BRS:HSD",33.3333,0,0,33.3333,0,33.3333
+"BRS:Plasma",50,0,0,0,50,0
+"BRS:RL",50,0,0,0,0,50
+"BRS:plasma_lyte_A",25,0,25,25,0,25
+"HES:HSD",0,33.3333,0,33.3333,0,33.3333
+"HES:Plasma",0,50,0,0,50,0
+"HES:RL",0,50,0,0,0,50
+"HES:plasma_lyte_A",0,25,25,25,0,25
+"HSD:NS",0,0,0,50,0,50
+"HSD:Plasma",0,0,0,33.3333,33.3333,33.3333
+"NS:plasma_lyte_A",0,0,33.3333,33.3333,0,33.3333
+"Plasma:RL",0,0,0,0,50,50
+"Plasma:plasma_lyte_A",0,0,25,25,25,25
+"plasma_lyte_A:RL",0,0,50,50,0,0
