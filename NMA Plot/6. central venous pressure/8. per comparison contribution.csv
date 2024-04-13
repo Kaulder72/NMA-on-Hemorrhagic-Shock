@@ -1,0 +1,9 @@
+"random MD","Combination:Isotonic_Crystalloid","Isotonic_Crystalloid:Natural_Colloid","Isotonic_Crystalloid:Synthetic_Colloid","Natural_Colloid:Synthetic_Colloid"
+"Mixed estimates",,,,
+"Combination:Isotonic_Crystalloid",100,0,0,0
+"Isotonic_Crystalloid:Natural_Colloid",0,70.52,14.74,14.74
+"Isotonic_Crystalloid:Synthetic_Colloid",0,7.69,84.62,7.69
+"Natural_Colloid:Synthetic_Colloid",0,27.57,27.57,44.86
+"Indirect estimates",,,,
+"Combination:Natural_Colloid",45.0867,35.26,9.8267,9.8267
+"Combination:Synthetic_Colloid",47.4367,5.1267,42.31,5.1267

@@ -1,0 +1,13 @@
+random MD,23,25,36,37,40,42,44,45,47,49,51,53
+Mixed estimates,--,--,--,--,--,--,--,--,--,--,--,--
+Combination:Isotonic_Crystalloid,0,25.5762,0,0,2.559,0,0,41.2839,0,0,0,30.5809
+Hypertonic_Crystalloid:Isotonic_Crystalloid,0,0,100,0,0,0,0,0,0,0,0,0
+Isotonic_Crystalloid:Natural_Colloid,44.2418,0,0,5.525,0,0.0814,0.7184,0,44.7082,1.6825,3.0427,0
+Isotonic_Crystalloid:Synthetic_Colloid,4.6405,0,0,9.33,0,1.1982,10.5764,0,4.6895,24.7703,44.795,0
+Natural_Colloid:Synthetic_Colloid,17.4804,0,0,29.71,0,0.5177,4.5698,0,17.6646,10.7026,19.3548,0
+Indirect estimates,--,--,--,--,--,--,--,--,--,--,--,--
+Combination:Hypertonic_Crystalloid,0,12.7881,50,0,1.2795,0,0,20.6419,0,0,0,15.2904
+Combination:Natural_Colloid,22.1209,12.3171,0,3.6833,1.2324,0.0543,0.4789,19.8816,22.3541,1.1217,2.0285,14.7272
+Combination:Synthetic_Colloid,3.0937,11.9927,0,6.22,1.1999,0.5991,5.2882,19.358,3.1263,12.3852,22.3975,14.3394
+Hypertonic_Crystalloid:Natural_Colloid,22.1209,0,48.1583,3.6833,0,0.0543,0.4789,0,22.3541,1.1217,2.0285,0
+Hypertonic_Crystalloid:Synthetic_Colloid,3.0937,0,46.89,6.22,0,0.5991,5.2882,0,3.1263,12.3852,22.3975,0
